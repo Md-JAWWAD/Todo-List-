@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-left: 16rem;
+  background-color: #888;
+  padding: 15rem;
+  background-image: url(/src/assets/back\ pic.jpg)
+}
+
+input{
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+  /* vertical-align:auto; */
+}
+
+input:focus{
+  border: 5px yellow solid;
+  outline: none;
+}
+
+li{
+  margin-top: 1rem;
+}
+
+.lists{
+  text-align: center;
+  background-color: yellow;
+  padding: 1rem; 
+  /* border: 5px solid darkgoldenrod; */
+  box-shadow: 10px 10px darkgoldenrod;
+}
